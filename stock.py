@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import yfinance as yfin
 
 yfin.pdr_override()
-st.title("Streamlit Stock Prices App")
+st.title("Stock Prices App")
 
 stock_name = st.text_input("Enter the stock name: \n")
 option = st.slider("How many days of data would you like to see?", 1,60,1)
